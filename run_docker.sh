@@ -11,4 +11,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 7070:80 predictdemo bash
+docker run -p 8000:80 predictdemo bash
