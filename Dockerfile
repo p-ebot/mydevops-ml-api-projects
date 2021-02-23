@@ -10,7 +10,7 @@ COPY . app.py /app/
 
 ## Step 3:
 # Install packages from requirements.txt
-RUN pip install pip==20.1  --trusted-host pypi.python.org -r requirements.txt
+RUN pip install pip==20.1 --no-cache-dir  --trusted-host pypi.python.org -r requirements.txt
 
 
 # hadolint ignore=DL3013
